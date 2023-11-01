@@ -35,7 +35,7 @@ Here's an example of the bash script that would be generated for sample1, fastq_
 #SBATCH --output=logs/fastqc/sample1_fastq_pair_1.out
 #SBATCH --error=logs/fastqc/sample1_fastq_pair_1.err
 #SBATCH --time=3:00:00
-#SBATCH --mem=16G
+#SBATCH --mem=4G
 #SBATCH --cpus-per-task=6
 
 module load cesga/2020 fastqc/0.11.9
@@ -71,7 +71,7 @@ for sample in data['sample_dict']:
 #SBATCH --output=logs/fastqc/{sample}_{fastq_pair}.out
 #SBATCH --error=logs/fastqc/{sample}_{fastq_pair}.err
 #SBATCH --time=3:00:00
-#SBATCH --mem=16G
+#SBATCH --mem=4G
 #SBATCH --cpus-per-task=6
 
 module load cesga/2020 fastqc/0.11.9
