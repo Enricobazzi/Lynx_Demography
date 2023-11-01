@@ -5,3 +5,4 @@
 
 **/.DS_Store
 scripts/rawreads_fastqc
+data/fastqc
