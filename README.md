@@ -29,22 +29,52 @@ for sh in $(ls scripts/rawreads_fastqc/*.sh | grep "_ll_")
   echo "sbatch $sh"
   sbatch $sh
 done
+
+# sbatch lc and lr samples:
+for sh in $(ls scripts/rawreads_fastqc/*.sh | grep -E "_lc_|_lr_")
+ do
+  echo "sbatch $sh"
+  sbatch $sh
+done
 ```
 Then I can run multiqc to check outputs:
 ```
-module load cesga/2020 multiqc/1.13
+module load cesga/2020 multiqc/1.14-python-3.9.9
 
+multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastqc
 multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_20/FASTQ/fastqc
+multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastqc
 multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LRU_30/fastqc
 multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/MAGROGEN/fastqc
 multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastqc
 multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Bobcat1/fastqc
-multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastqc
 multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastqc
 multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LCA_3/fastqc
-multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastqc
 ```
+Analyzing fastqc and multiqc reports we see that
+
+LYNX_20, LYNX_21, LYNX_24 have very-low to fail levels of:
+- Illumina universal adapter content
+- Poly-G sequences
+
+Bobcat1 have warning levels of:
+- Nextera transposase adapters
+
+Canada_data_CandadaLynxes have very-low to warning levels of:
+- Illumina universal adapter content
+- Poly-G sequences
+and one failed GC-content
+
+MAGROGEN LL212 has warnings for:
+- Overrepresented TruSeq Adapter (ATCGGAAGAGCACACGTCTGAACTCCAGTCACGAATTCGTATCTCGTATG)
+- Overrepresented Illumina Single End PCR Primer 1 (ATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTGCCTCTATGTGTAGATCTC)
+
+USA_data_Bobcats have very-low to warning levels of:
+- Nextera transposase adapters
+- Poly-G sequences
+
 ### Run fastp on raw reads
+
 ### Run fastqc on fastp trimmed reads
 ### Run multiqc to check outputs
 
