@@ -4,6 +4,6 @@
 .Ruserdata
 
 **/.DS_Store
-scripts/rawreads_fastqc
+scripts/fastqc
 scripts/fastp
 data/fastqc
