@@ -80,6 +80,6 @@ module load cesga/2020 fastqc/0.11.9
 '''
         
         # Write the bash script to a file
-        script_file = f'scripts/rawreads_fastqc/{sample}_{fastq_pair}.sh'
+        script_file = f'scripts/fastqc/{sample}_{fastq_pair}.sh'
         with open(script_file, 'w') as f:
             f.write(script)
