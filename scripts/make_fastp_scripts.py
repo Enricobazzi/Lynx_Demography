@@ -81,8 +81,8 @@ for sample in data['sample_dict']:
         # define the fastp output file names and create the output folder
         fastp_folder = os.path.join(containing_folder, 'fastp')
         # r1 and r2 fastp output files
-        fastp_r1 = data['sample_dict'][sample][fastq_pair][1].replace('.fastq.gz', '.fastp.fastq.gz')
-        fastp_r2 = data['sample_dict'][sample][fastq_pair][2].replace('.fastq.gz', '.fastp.fastq.gz')
+        fastp_r1 = data['sample_dict'][sample][fastq_pair][1].replace('.fastq.gz', '.fastp.fastq.gz').replace('.fq.gz', '.fastp.fastq.gz')
+        fastp_r2 = data['sample_dict'][sample][fastq_pair][2].replace('.fastq.gz', '.fastp.fastq.gz').replace('.fq.gz', '.fastp.fastq.gz')
         fastp_r1_out = os.path.join(fastp_folder, fastp_r1)
         fastp_r2_out = os.path.join(fastp_folder, fastp_r2)
 
