@@ -125,8 +125,8 @@ for sample in data['sample_dict']:
             #SBATCH --job-name={sample}_{fastq_pair}
             #SBATCH --output=logs/fastp/{sample}_{fastq_pair}.out
             #SBATCH --error=logs/fastp/{sample}_{fastq_pair}.err
-            #SBATCH --time=4:00:00
-            #SBATCH --mem=4G
+            #SBATCH --time=2:00:00
+            #SBATCH --mem=3G
             #SBATCH --cpus-per-task=6
 
             module load cesga/2020 gcccore/system fastp/0.22.0
