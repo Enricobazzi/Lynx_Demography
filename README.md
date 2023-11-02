@@ -17,9 +17,9 @@ I will generate GVCFs of following samples:
 ## Data Quality Control
 
 ### Run fastqc on raw reads
-Scripts to be submitted to slurm queue in cesga ft3 were generated using the information contained in the [all_rawreads_fastqc configuration file](config/all_rawreads_fastqc.yml) with the [make_fastqc_scripts](scripts/make_fastqc_scripts.py) python script:
+Scripts to be submitted to slurm queue in cesga ft3 were generated using the information contained in the [all_rawreads_fastqs configuration file](config/all_rawreads_fastqs.yml) with the [make_fastqc_scripts](scripts/make_fastqc_scripts.py) python script:
 ```
-python scripts/make_fastqc_scripts.py config/all_rawreads_fastqc.yml
+python scripts/make_fastqc_scripts.py config/all_rawreads_fastqs.yml
 ```
 The generated scripts were then submitted to the job queue on cesga ft3:
 ```
@@ -75,7 +75,75 @@ USA_data_Bobcats have very-low to warning levels of:
 
 ### Run fastp on raw reads
 
+Seeing the warnings I receive from fastqc reports I need to process the rawreads to try to remove them.
+
+I use [fastp](https://github.com/OpenGene/fastp) from [Chen et al. (2018)](https://academic.oup.com/bioinformatics/article/34/17/i884/5093234?login=true) with default settings plus the following flags:
+```
+--dont_overwrite (protect the existing files not to be overwritten by fastp)
+--trim_poly_g (detect the polyG in read tails and trim them)
+--length_required 30 (reads shorter than length_required will be discarded)
+--correction (enable base correction in overlapped regions)
+--detect_adapter_for_pe (enable adapter sequence auto-detection)
+--thread 6 (worker thread number)
+```
+Scripts that run fastp on each fastq pair separately were generated using the information contained in the [all_rawreads_fastqs configuration file](config/all_rawreads_fastqs.yml) with the [make_fastp_scripts](scripts/make_fastp_scripts.py) python script:
+```
+python scripts/make_fastp_scripts.py config/all_rawreads_fastqs.yml
+```
+The generated scripts were then submitted to the job queue on cesga ft3:
+```
+# sbatch ll samples:
+for sh in $(ls scripts/fastp/*.sh | grep "_ll_")
+ do
+  echo "sbatch $sh"
+  sbatch $sh
+done
+
+# sbatch lc and lr samples:
+for sh in $(ls scripts/fastp/*.sh | grep -E "_lc_|_lr_")
+ do
+  echo "sbatch $sh"
+  sbatch $sh
+done
+```
+
 ### Run fastqc on fastp trimmed reads
+
+To check on how the fastp run went I run fastqc on the newly generated fastq pairs from fastp. This time I use a different [configuration file with the fastp folders and fastq files](config/all_fastp_fastqs.yml) using the [make_fastqc_scripts](scripts/make_fastqc_scripts.py) python script again:
+```
+python scripts/make_fastqc_scripts.py config/all_fastp_fastqs.yml
+```
+The generated scripts were then submitted to the job queue on cesga ft3:
+```
+# sbatch ll samples:
+for sh in $(ls scripts/fastqc/*.sh | grep "_ll_")
+ do
+  echo "sbatch $sh"
+  sbatch $sh
+done
+
+# sbatch lc and lr samples:
+for sh in $(ls scripts/fastqc/*.sh | grep -E "_lc_|_lr_")
+ do
+  echo "sbatch $sh"
+  sbatch $sh
+done
+```
+Then I can run multiqc to check outputs:
+```
+module load cesga/2020 multiqc/1.14-python-3.9.9
+
+multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp/fastqc
+multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_20/FASTQ/fastp/fastqc
+multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp/fastqc
+multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LRU_30/fastp/fastqc
+multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/MAGROGEN/fastp/fastqc
+multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp/fastqc
+multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Bobcat1/fastp/fastqc
+multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp/fastqc
+multiqc /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LCA_3/fastp/fastqc
+```
+
 ### Run multiqc to check outputs
 
 ## two
