@@ -1,0 +1,423 @@
+sample_dict:
+  c_lp_sm_0211: 
+    LP_211_EKDN230028739-1A_227CWYLT3_L1:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_211/fastp', 'LP_211_EKDN230028739-1A_227CWYLT3_L1_1.fastp.fastq.gz', 'LP_211_EKDN230028739-1A_227CWYLT3_L1_2.fastp.fastq.gz']
+    LP_211_EKDN230028739-1A_227CWYLT3_L2:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_211/fastp', 'LP_211_EKDN230028739-1A_227CWYLT3_L2_1.fastp.fastq.gz', 'LP_211_EKDN230028739-1A_227CWYLT3_L2_2.fastp.fastq.gz']
+    LP_211_EKDN230028739-1A_227CWYLT3_L3:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_211/fastp', 'LP_211_EKDN230028739-1A_227CWYLT3_L3_1.fastp.fastq.gz', 'LP_211_EKDN230028739-1A_227CWYLT3_L3_2.fastp.fastq.gz']
+    LP_211_EKDN230028739-1A_227CWYLT3_L4:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_211/fastp', 'LP_211_EKDN230028739-1A_227CWYLT3_L4_1.fastp.fastq.gz', 'LP_211_EKDN230028739-1A_227CWYLT3_L4_2.fastp.fastq.gz']
+  c_lp_sm_0220:
+    LP_220_EKDN230028698-1A_225TTNLT3_L4:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_220/fastp', 'LP_220_EKDN230028698-1A_225TTNLT3_L4_1.fastp.fastq.gz', 'LP_220_EKDN230028698-1A_225TTNLT3_L4_2.fastp.fastq.gz']
+  c_lp_sm_0225:
+    LP_225_EKDN230028737-1A_227CWYLT3_L1:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_225/fastp', 'LP_225_EKDN230028737-1A_227CWYLT3_L1_1.fastp.fastq.gz', 'LP_225_EKDN230028737-1A_227CWYLT3_L1_2.fastp.fastq.gz']
+    LP_225_EKDN230028737-1A_227CWYLT3_L2:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_225/fastp', 'LP_225_EKDN230028737-1A_227CWYLT3_L2_1.fastp.fastq.gz', 'LP_225_EKDN230028737-1A_227CWYLT3_L2_2.fastp.fastq.gz']
+    LP_225_EKDN230028737-1A_227CWYLT3_L3:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_225/fastp', 'LP_225_EKDN230028737-1A_227CWYLT3_L3_1.fastp.fastq.gz', 'LP_225_EKDN230028737-1A_227CWYLT3_L3_2.fastp.fastq.gz']
+    LP_225_EKDN230028737-1A_227CWYLT3_L4:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_225/fastp', 'LP_225_EKDN230028737-1A_227CWYLT3_L4_1.fastp.fastq.gz', 'LP_225_EKDN230028737-1A_227CWYLT3_L4_2.fastp.fastq.gz']
+  c_lp_sm_0239:
+    LP_239_EKDN230028707-1A_225THHLT3_L2:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_239/fastp', 'LP_239_EKDN230028707-1A_225THHLT3_L2_1.fastp.fastq.gz', 'LP_239_EKDN230028707-1A_225THHLT3_L2_2.fastp.fastq.gz']
+  c_lp_sm_0278:
+    LP_278_EKDN230028717-1A_225THHLT3_L5:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_278/fastp', 'LP_278_EKDN230028717-1A_225THHLT3_L5_1.fastp.fastq.gz', 'LP_278_EKDN230028717-1A_225THHLT3_L5_2.fastp.fastq.gz']
+  c_lp_sm_0377:
+    LP_377_EKDN230028734-1A_227CWYLT3_L1:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_377/fastp', 'LP_377_EKDN230028734-1A_227CWYLT3_L1_1.fastp.fastq.gz', 'LP_377_EKDN230028734-1A_227CWYLT3_L1_2.fastp.fastq.gz']
+    LP_377_EKDN230028734-1A_227CWYLT3_L2:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_377/fastp', 'LP_377_EKDN230028734-1A_227CWYLT3_L1_2.fastp.fastq.gz', 'LP_377_EKDN230028734-1A_227CWYLT3_L2_2.fastp.fastq.gz']
+    LP_377_EKDN230028734-1A_227CWYLT3_L3:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_377/fastp', 'LP_377_EKDN230028734-1A_227CWYLT3_L1_3.fastp.fastq.gz', 'LP_377_EKDN230028734-1A_227CWYLT3_L3_2.fastp.fastq.gz']
+    LP_377_EKDN230028734-1A_227CWYLT3_L4:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_377/fastp', 'LP_377_EKDN230028734-1A_227CWYLT3_L1_4.fastp.fastq.gz', 'LP_377_EKDN230028734-1A_227CWYLT3_L4_2.fastp.fastq.gz']
+  c_lp_sm_0390:
+    LP_390_EKDN230028715-1A_225THHLT3_L4:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_390/fastp', 'LP_390_EKDN230028715-1A_225THHLT3_L4_1.fastp.fastq.gz', 'LP_390_EKDN230028715-1A_225THHLT3_L4_2.fastp.fastq.gz']
+  c_lp_sm_0452:
+    LP_452_EKDN230028719-1A_225THHLT3_L5:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_452/fastp', 'LP_452_EKDN230028719-1A_225THHLT3_L5_1.fastp.fastq.gz', 'LP_452_EKDN230028719-1A_225THHLT3_L5_2.fastp.fastq.gz']
+    LP_452_EKDN230028719-1A_225THHLT3_L6:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_452/fastp', 'LP_452_EKDN230028719-1A_225THHLT3_L6_1.fastp.fastq.gz', 'LP_452_EKDN230028719-1A_225THHLT3_L6_2.fastp.fastq.gz']
+  c_lp_sm_0474:
+    LP_474_EKDN230028738-1A_227CWYLT3_L1:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_474/fastp', 'LP_474_EKDN230028738-1A_227CWYLT3_L1_1.fastp.fastq.gz', 'LP_474_EKDN230028738-1A_227CWYLT3_L1_2.fastp.fastq.gz']
+    LP_474_EKDN230028738-1A_227CWYLT3_L2:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_474/fastp', 'LP_474_EKDN230028738-1A_227CWYLT3_L2_1.fastp.fastq.gz', 'LP_474_EKDN230028738-1A_227CWYLT3_L2_2.fastp.fastq.gz']
+    LP_474_EKDN230028738-1A_227CWYLT3_L3:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_474/fastp', 'LP_474_EKDN230028738-1A_227CWYLT3_L3_1.fastp.fastq.gz', 'LP_474_EKDN230028738-1A_227CWYLT3_L3_2.fastp.fastq.gz']
+    LP_474_EKDN230028738-1A_227CWYLT3_L4:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_474/fastp', 'LP_474_EKDN230028738-1A_227CWYLT3_L4_1.fastp.fastq.gz', 'LP_474_EKDN230028738-1A_227CWYLT3_L4_2.fastp.fastq.gz']
+  c_lp_sm_0614:
+    LP_614_EKDN230028696-1A_225TTNLT3_L3:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/novogene_lp_sept2023/01.RawData/LP_614/fastp', 'LP_614_EKDN230028696-1A_225TTNLT3_L3_1.fastp.fastq.gz', 'LP_614_EKDN230028696-1A_225TTNLT3_L3_2.fastp.fastq.gz']
+  c_ll_vl_0112:
+    LL112:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/MAGROGEN/fastp', 'LL112_R1.fastp.fastq.gz', 'LL112_R2.fastp.fastq.gz']
+  c_ll_vl_0114:
+    H2TJNDSXY_1_142UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_1_142UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_1_142UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_2_142UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_2_142UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_2_142UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_3_142UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_3_142UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_3_142UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_4_142UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_4_142UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_4_142UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_1_142UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_1_142UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_1_142UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_2_142UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_2_142UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_2_142UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_3_142UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_3_142UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_3_142UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_4_142UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_4_142UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_4_142UDI-idt-UMI_2.fastp.fastq.gz']
+  c_ll_vl_0137:
+    H2TJNDSXY_1_130UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_1_130UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_1_130UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_2_130UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_2_130UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_2_130UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_3_130UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_3_130UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_3_130UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_4_130UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_4_130UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_4_130UDI-idt-UMI_2.fastp.fastq.gz']
+  c_ll_ya_0141:
+    H2TJNDSXY_1_106UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_1_106UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_1_106UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_2_106UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_2_106UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_2_106UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_3_106UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_3_106UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_3_106UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_4_106UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_4_106UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_4_106UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_1_106UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_1_106UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_1_106UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_2_106UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_2_106UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_2_106UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_3_106UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_3_106UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_3_106UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_4_106UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_4_106UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_4_106UDI-idt-UMI_2.fastp.fastq.gz']
+  c_ll_ya_0146:
+    LL146:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/MAGROGEN/fastp', 'LL146_R1.fastp.fastq.gz', 'LL146_R2.fastp.fastq.gz']
+  c_ll_ki_0090:
+    LL90:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/MAGROGEN/fastp', 'LL90_R1.fastp.fastq.gz', 'LL90_R2.fastp.fastq.gz']
+  c_ll_ur_0202:
+    H2TJNDSXY_1_166UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_1_166UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_1_166UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_2_166UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_2_166UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_2_166UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_3_166UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_3_166UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_3_166UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_4_166UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_4_166UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_4_166UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_1_166UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_1_166UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_1_166UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_2_166UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_2_166UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_2_166UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_3_166UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_3_166UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_3_166UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_4_166UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_4_166UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_4_166UDI-idt-UMI_2.fastp.fastq.gz']
+  c_ll_cr_0211:
+    H2TJNDSXY_1_155UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_1_155UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_1_155UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_2_155UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_2_155UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_2_155UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_3_155UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_3_155UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_3_155UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_4_155UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_4_155UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_4_155UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_1_155UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_1_155UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_1_155UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_2_155UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_2_155UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_2_155UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_3_155UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_3_155UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_3_155UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_4_155UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_4_155UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_4_155UDI-idt-UMI_2.fastp.fastq.gz']
+  c_ll_cr_0212:
+    LL212:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/MAGROGEN/fastp', 'LL212_R1.fastp.fastq.gz', 'LL212_R2.fastp.fastq.gz']
+  c_ll_la_0045:
+    H2TJNDSXY_1_154UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_1_154UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_1_154UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_2_154UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_2_154UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_2_154UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_3_154UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_3_154UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_3_154UDI-idt-UMI_2.fastp.fastq.gz']
+    H2TJNDSXY_4_154UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H2TJNDSXY_4_154UDI-idt-UMI_1.fastp.fastq.gz', 'H2TJNDSXY_4_154UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_1_154UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_1_154UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_1_154UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_2_154UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_2_154UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_2_154UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_3_154UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_3_154UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_3_154UDI-idt-UMI_2.fastp.fastq.gz']
+    H522NDSXY_4_154UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_24/20200405/FASTQ/fastp', 'H522NDSXY_4_154UDI-idt-UMI_1.fastp.fastq.gz', 'H522NDSXY_4_154UDI-idt-UMI_2.fastp.fastq.gz']
+  c_ll_ca_0240:
+    HY5FMDSXX_1_21UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_20/FASTQ/fastp', 'HY5FMDSXX_1_21UDI-idt-UMI_1.fastp.fastq.gz', 'HY5FMDSXX_1_21UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5FMDSXX_2_21UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_20/FASTQ/fastp', 'HY5FMDSXX_2_21UDI-idt-UMI_1.fastp.fastq.gz', 'HY5FMDSXX_2_21UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5FMDSXX_3_21UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_20/FASTQ/fastp', 'HY5FMDSXX_3_21UDI-idt-UMI_1.fastp.fastq.gz', 'HY5FMDSXX_3_21UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5FMDSXX_4_21UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_20/FASTQ/fastp', 'HY5FMDSXX_4_21UDI-idt-UMI_1.fastp.fastq.gz', 'HY5FMDSXX_4_21UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_1_21UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_20/FASTQ/fastp', 'HY5WLDSXX_1_21UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_1_21UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_2_21UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_20/FASTQ/fastp', 'HY5WLDSXX_2_21UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_2_21UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_3_21UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_20/FASTQ/fastp', 'HY5WLDSXX_3_21UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_3_21UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_4_21UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_20/FASTQ/fastp', 'HY5WLDSXX_4_21UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_4_21UDI-idt-UMI_2.fastp.fastq.gz']
+  c_ll_ca_0242:
+    HY5FMDSXX_1_93UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5FMDSXX_1_93UDI-idt-UMI_1.fastp.fastq.gz', 'HY5FMDSXX_1_93UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5FMDSXX_2_93UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5FMDSXX_2_93UDI-idt-UMI_1.fastp.fastq.gz', 'HY5FMDSXX_2_93UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5FMDSXX_3_93UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5FMDSXX_3_93UDI-idt-UMI_1.fastp.fastq.gz', 'HY5FMDSXX_3_93UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5FMDSXX_4_93UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5FMDSXX_4_93UDI-idt-UMI_1.fastp.fastq.gz', 'HY5FMDSXX_4_93UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_1_93UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_1_93UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_1_93UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_2_93UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_2_93UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_2_93UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_3_93UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_3_93UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_3_93UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_4_93UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_4_93UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_4_93UDI-idt-UMI_2.fastp.fastq.gz']
+  c_ll_ca_0247:
+    HY5WLDSXX_1_226UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_1_226UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_1_226UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_2_226UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_2_226UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_2_226UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_3_226UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_3_226UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_3_226UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_4_226UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_4_226UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_4_226UDI-idt-UMI_2.fastp.fastq.gz']
+  c_ll_ca_0241:
+    HY5FMDSXX_1_81UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5FMDSXX_1_81UDI-idt-UMI_1.fastp.fastq.gz', 'HY5FMDSXX_1_81UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5FMDSXX_2_81UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5FMDSXX_2_81UDI-idt-UMI_1.fastp.fastq.gz', 'HY5FMDSXX_2_81UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5FMDSXX_3_81UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5FMDSXX_3_81UDI-idt-UMI_1.fastp.fastq.gz', 'HY5FMDSXX_3_81UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5FMDSXX_4_81UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5FMDSXX_4_81UDI-idt-UMI_1.fastp.fastq.gz', 'HY5FMDSXX_4_81UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_1_81UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_1_81UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_1_81UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_2_81UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_2_81UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_2_81UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_3_81UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_3_81UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_3_81UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_4_81UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_4_81UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_4_81UDI-idt-UMI_2.fastp.fastq.gz']
+  c_ll_ca_0243:
+    HY5FMDSXX_1_10UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5FMDSXX_1_10UDI-idt-UMI_1.fastp.fastq.gz', 'HY5FMDSXX_1_10UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5FMDSXX_2_10UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5FMDSXX_2_10UDI-idt-UMI_1.fastp.fastq.gz', 'HY5FMDSXX_2_10UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5FMDSXX_3_10UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5FMDSXX_3_10UDI-idt-UMI_1.fastp.fastq.gz', 'HY5FMDSXX_3_10UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5FMDSXX_4_10UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5FMDSXX_4_10UDI-idt-UMI_1.fastp.fastq.gz', 'HY5FMDSXX_4_10UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_1_10UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_1_10UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_1_10UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_2_10UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_2_10UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_2_10UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_3_10UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_3_10UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_3_10UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_4_10UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_4_10UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_4_10UDI-idt-UMI_2.fastp.fastq.gz']
+  c_ll_ca_0244:
+    HY5WLDSXX_1_202UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_1_202UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_1_202UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_2_202UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_2_202UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_2_202UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_3_202UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_3_202UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_3_202UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_4_202UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_4_202UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_4_202UDI-idt-UMI_2.fastp.fastq.gz']
+  c_ll_ca_0259:
+    HY5WLDSXX_1_203UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_1_203UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_1_203UDI-idt-UMI_2.fastp.fastq.gz'] 
+    HY5WLDSXX_2_203UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_2_203UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_2_203UDI-idt-UMI_2.fastp.fastq.gz'] 
+    HY5WLDSXX_3_203UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_3_203UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_3_203UDI-idt-UMI_2.fastp.fastq.gz'] 
+    HY5WLDSXX_4_203UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_4_203UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_4_203UDI-idt-UMI_2.fastp.fastq.gz'] 
+  c_ll_ca_0260:
+    HY5JLDSXX_1_215UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5JLDSXX_1_215UDI-idt-UMI_1.fastp.fastq.gz', 'HY5JLDSXX_1_215UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5JLDSXX_2_215UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5JLDSXX_2_215UDI-idt-UMI_1.fastp.fastq.gz', 'HY5JLDSXX_2_215UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5JLDSXX_3_215UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5JLDSXX_3_215UDI-idt-UMI_1.fastp.fastq.gz', 'HY5JLDSXX_3_215UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5JLDSXX_4_215UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5JLDSXX_4_215UDI-idt-UMI_1.fastp.fastq.gz', 'HY5JLDSXX_4_215UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_1_215UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_1_215UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_1_215UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_2_215UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_2_215UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_2_215UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_3_215UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_3_215UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_3_215UDI-idt-UMI_2.fastp.fastq.gz']
+    HY5WLDSXX_4_215UDI-idt-UMI:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LYNX_21/FASTQ/fastp', 'HY5WLDSXX_4_215UDI-idt-UMI_1.fastp.fastq.gz', 'HY5WLDSXX_4_215UDI-idt-UMI_2.fastp.fastq.gz']
+  c_lc_zz_0001:
+    LC1:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/MAGROGEN/fastp', 'LC1_R1.fastp.fastq.gz', 'LC1_R2.fastp.fastq.gz']
+  c_lc_zz_0003:
+    LCA-3_1:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LCA_3/fastp', 'LCA-3_1_AGTTCC_R1.fastp.fastq.gz', 'LCA-3_1_AGTTCC_R2.fastp.fastq.gz']
+    LCA-3_2:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LCA_3/fastp', 'LCA-3_2_AGTTCC_R1.fastp.fastq.gz', 'LCA-3_2_AGTTCC_R2.fastp.fastq.gz']
+    LCA-3_3:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LCA_3/fastp', 'LCA-3_3_AGTTCC_R1.fastp.fastq.gz', 'LCA-3_3_AGTTCC_R2.fastp.fastq.gz']
+    LCA-3_4:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LCA_3/fastp', 'LCA-3_4_AGTTCC_R1.fastp.fastq.gz', 'LCA-3_4_AGTTCC_R2.fastp.fastq.gz']
+    LCA-3_5:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LCA_3/fastp', 'LCA-3_5_AGTTCC_R1.fastp.fastq.gz', 'LCA-3_5_AGTTCC_R2.fastp.fastq.gz']
+    LCA-3_6:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LCA_3/fastp', 'LCA-3_6_AGTTCC_R1.fastp.fastq.gz', 'LCA-3_6_AGTTCC_R2.fastp.fastq.gz']
+    LCA-3_7:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LCA_3/fastp', 'LCA-3_7_AGTTCC_R1.fastp.fastq.gz', 'LCA-3_7_AGTTCC_R2.fastp.fastq.gz']
+    LCA-3_8:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LCA_3/fastp', 'LCA-3_8_AGTTCC_R1.fastp.fastq.gz', 'LCA-3_8_AGTTCC_R2.fastp.fastq.gz']
+  c_lc_bc_0004:
+    11B529:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560862_CLW_0013_Sk_R_PE_743_WG_11B529_191212_A00469_0071_AHWWMGDSXX_CGAGCCGG-GCGGCTTG_L004_R1_001.fastp.fastq.gz', 'SWID_15560862_CLW_0013_Sk_R_PE_743_WG_11B529_191212_A00469_0071_AHWWMGDSXX_CGAGCCGG-GCGGCTTG_L004_R2_001.fastp.fastq.gz']
+  c_lc_bc_0005:
+    11F563:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560870_CLW_0017_Sk_R_PE_614_WG_11F563_191212_A00469_0071_AHWWMGDSXX_CGCGCCAA-TGGCTAGG_L004_R1_001.fastp.fastq.gz', 'SWID_15560870_CLW_0017_Sk_R_PE_614_WG_11F563_191212_A00469_0071_AHWWMGDSXX_CGCGCCAA-TGGCTAGG_L004_R2_001.fastp.fastq.gz']
+  c_lc_al_0006:
+    11F716:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560850_CLW_0007_Sk_R_PE_746_WG_11F716_191212_A00469_0071_AHWWMGDSXX_CTCACGAT-CTTACGGC_L004_R1_001.fastp.fastq.gz', 'SWID_15560850_CLW_0007_Sk_R_PE_746_WG_11F716_191212_A00469_0071_AHWWMGDSXX_CTCACGAT-CTTACGGC_L004_R2_001.fastp.fastq.gz']
+  c_lc_yu_0007:
+    11F944:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560864_CLW_0014_Sk_R_PE_674_WG_11F944_191212_A00469_0071_AHWWMGDSXX_CGATTATC-GAGTTGAT_L004_R1_001.fastp.fastq.gz', 'SWID_15560864_CLW_0014_Sk_R_PE_674_WG_11F944_191212_A00469_0071_AHWWMGDSXX_CGATTATC-GAGTTGAT_L004_R2_001.fastp.fastq.gz']
+  c_lc_al_0008:
+    11H800:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560852_CLW_0008_Sk_R_PE_744_WG_11H800_191212_A00469_0071_AHWWMGDSXX_TCGGTCGA-CCAAGTGC_L004_R1_001.fastp.fastq.gz', 'SWID_15560852_CLW_0008_Sk_R_PE_744_WG_11H800_191212_A00469_0071_AHWWMGDSXX_TCGGTCGA-CCAAGTGC_L004_R2_001.fastp.fastq.gz']
+  c_lc_yu_0009:
+    12F499:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560866_CLW_0015_Sk_R_PE_743_WG_12F499_191212_A00469_0071_AHWWMGDSXX_TCGAAGCT-GCACTGAG_L004_R1_001.fastp.fastq.gz', 'SWID_15560866_CLW_0015_Sk_R_PE_743_WG_12F499_191212_A00469_0071_AHWWMGDSXX_TCGAAGCT-GCACTGAG_L004_R2_001.fastp.fastq.gz']
+  c_lc_ma_0010:
+    A727:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560856_CLW_0010_Sk_R_PE_698_WG_A727_191212_A00469_0071_AHWWMGDSXX_AAGATACA-AATATCTG_L004_R1_001.fastp.fastq.gz', 'SWID_15560856_CLW_0010_Sk_R_PE_698_WG_A727_191212_A00469_0071_AHWWMGDSXX_AAGATACA-AATATCTG_L004_R2_001.fastp.fastq.gz']
+  c_lc_on_0011:
+    B458:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560868_CLW_0016_Sk_R_PE_716_WG_B458_191212_A00469_0071_AHWWMGDSXX_CTATCATT-GACCACCT_L004_R1_001.fastp.fastq.gz', 'SWID_15560868_CLW_0016_Sk_R_PE_716_WG_B458_191212_A00469_0071_AHWWMGDSXX_CTATCATT-GACCACCT_L004_R2_001.fastp.fastq.gz']
+  c_lc_qu_0012:
+    B85:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560844_CLW_0004_Sk_R_PE_710_WG_B85_191212_A00469_0071_AHWWMGDSXX_CTTATGAA-GCCAATGT_L004_R1_001.fastp.fastq.gz', 'SWID_15560844_CLW_0004_Sk_R_PE_710_WG_B85_191212_A00469_0071_AHWWMGDSXX_CTTATGAA-GCCAATGT_L004_R2_001.fastp.fastq.gz']
+  c_lc_qu_0013:
+    C165:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560840_CLW_0003_Sk_R_PE_646_WG_C165_191212_A00469_0071_AHWWMGDSXX_GAATATCC-GACGCCAT_L004_R1_001.fastp.fastq.gz', 'SWID_15560840_CLW_0003_Sk_R_PE_646_WG_C165_191212_A00469_0071_AHWWMGDSXX_GAATATCC-GACGCCAT_L004_R2_001.fastp.fastq.gz']
+  c_lc_ma_0014:
+    C557:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560854_CLW_0009_Sk_R_PE_704_WG_C557_191212_A00469_0071_AHWWMGDSXX_TCGGTAAG-CTAACTCA_L004_R1_001.fastp.fastq.gz', 'SWID_15560854_CLW_0009_Sk_R_PE_704_WG_C557_191212_A00469_0071_AHWWMGDSXX_TCGGTAAG-CTAACTCA_L004_R2_001.fastp.fastq.gz']
+  c_lc_ak_0015:
+    E421:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560846_CLW_0005_Sk_R_PE_707_WG_E421_191212_A00469_0071_AHWWMGDSXX_TCGGCACC-CCAACGTC_L004_R1_001.fastp.fastq.gz', 'SWID_15560846_CLW_0005_Sk_R_PE_707_WG_E421_191212_A00469_0071_AHWWMGDSXX_TCGGCACC-CCAACGTC_L004_R2_001.fastp.fastq.gz']
+  c_lc_ak_0016:
+    E439:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560848_CLW_0006_Sk_R_PE_713_WG_E439_191212_A00469_0071_AHWWMGDSXX_AAGAAGCG-GTAGATAA_L004_R1_001.fastp.fastq.gz', 'SWID_15560848_CLW_0006_Sk_R_PE_713_WG_E439_191212_A00469_0071_AHWWMGDSXX_AAGAAGCG-GTAGATAA_L004_R2_001.fastp.fastq.gz']
+  c_lc_qu_0017:
+    F235:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560838_CLW_0002_Sk_R_PE_702_WG_F235_191212_A00469_0071_AHWWMGDSXX_GAATGCTC-GTCTAACA_L004_R1_001.fastp.fastq.gz', 'SWID_15560838_CLW_0002_Sk_R_PE_702_WG_F235_191212_A00469_0071_AHWWMGDSXX_GAATGCTC-GTCTAACA_L004_R2_001.fastp.fastq.gz']
+  c_lc_la_0018:
+    FHA_019:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560833_CLW_0001_Sk_R_PE_725_WG_FHA_019_191212_A00469_0071_AHWWMGDSXX_TGAGTCAG-CCGAACTT_L004_R1_001.fastp.fastq.gz', 'SWID_15560833_CLW_0001_Sk_R_PE_725_WG_FHA_019_191212_A00469_0071_AHWWMGDSXX_TGAGTCAG-CCGAACTT_L004_R2_001.fastp.fastq.gz']
+  c_lc_on_0019:
+    FHA-062:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560860_CLW_0012_Sk_R_PE_722_WG_FHA-062_191212_A00469_0071_AHWWMGDSXX_TCGGATGT-CTGCGGAT_L004_R1_001.fastp.fastq.gz', 'SWID_15560860_CLW_0012_Sk_R_PE_722_WG_FHA-062_191212_A00469_0071_AHWWMGDSXX_TCGGATGT-CTGCGGAT_L004_R2_001.fastp.fastq.gz']
+  c_lc_on_0020:
+    G91:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Canada_data_CandadaLynxes/share/fastp', 'SWID_15560858_CLW_0011_Sk_R_PE_710_WG_G91_191212_A00469_0071_AHWWMGDSXX_GTCGCTGT-TTATATCA_L004_R1_001.fastp.fastq.gz', 'SWID_15560858_CLW_0011_Sk_R_PE_710_WG_G91_191212_A00469_0071_AHWWMGDSXX_GTCGCTGT-TTATATCA_L004_R2_001.fastp.fastq.gz']
+  c_lr_zz_0001:
+    LR1:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/MAGROGEN/fastp', 'LR1_R1.fastp.fastq.gz', 'LR1_R2.fastp.fastq.gz']
+  c_lr_fl_0005:
+    LRU-30_1:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LRU_30/fastp', 'LRU-30_1_GGTAGC_R1.fastp.fastq.gz', 'LRU-30_1_GGTAGC_R2.fastp.fastq.gz']
+    LRU-30_2:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LRU_30/fastp', 'LRU-30_2_GGTAGC_R1.fastp.fastq.gz', 'LRU-30_2_GGTAGC_R2.fastp.fastq.gz']
+    LRU-30_3:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LRU_30/fastp', 'LRU-30_3_GGTAGC_R1.fastp.fastq.gz', 'LRU-30_3_GGTAGC_R2.fastp.fastq.gz']
+    LRU-30_4:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LRU_30/fastp', 'LRU-30_4_GGTAGC_R1.fastp.fastq.gz', 'LRU-30_4_GGTAGC_R2.fastp.fastq.gz']
+    LRU-30_5:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LRU_30/fastp', 'LRU-30_5_GGTAGC_R1.fastp.fastq.gz', 'LRU-30_5_GGTAGC_R2.fastp.fastq.gz']
+    LRU-30_6:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LRU_30/fastp', 'LRU-30_6_GGTAGC_R1.fastp.fastq.gz', 'LRU-30_6_GGTAGC_R2.fastp.fastq.gz']
+    LRU-30_7:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LRU_30/fastp', 'LRU-30_7_GGTAGC_R1.fastp.fastq.gz', 'LRU-30_7_GGTAGC_R2.fastp.fastq.gz']
+    LRU-30_8:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LRU_30/fastp', 'LRU-30_8_GGTAGC_R1.fastp.fastq.gz', 'LRU-30_8_GGTAGC_R2.fastp.fastq.gz']
+  c_lr_nm_0006:
+    Bobcat1_S1_L001:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Bobcat1/fastp', 'Bobcat1_S1_L001_R1_001.fastp.fastq.gz', 'Bobcat1_S1_L001_R2_001.fastp.fastq.gz']
+    Bobcat1_S1_L002:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Bobcat1/fastp', 'Bobcat1_S1_L002_R1_001.fastp.fastq.gz', 'Bobcat1_S1_L002_R2_001.fastp.fastq.gz']
+    Bobcat1_S1_L003:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Bobcat1/fastp', 'Bobcat1_S1_L003_R1_001.fastp.fastq.gz', 'Bobcat1_S1_L003_R2_001.fastp.fastq.gz']
+    Bobcat1_S1_L004:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/Bobcat1/fastp', 'Bobcat1_S1_L004_R1_001.fastp.fastq.gz', 'Bobcat1_S1_L004_R2_001.fastp.fastq.gz']
+  c_lr_mi_0007:
+    MN11-Erb_S1:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp', '01-MN11-Erb_S1_L003_R1_001.fastp.fastq.gz', '01-MN11-Erb_S1_L003_R2_001.fastp.fastq.gz']
+  c_lr_tx_0008:
+    LR040-TX_S3:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp', '02-LR040-TX_S3_L003_R1_001.fastp.fastq.gz', '02-LR040-TX_S3_L003_R2_001.fastp.fastq.gz']
+  c_lr_mo_0009:
+    M11-MT_S5:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp', '03-M11-MT_S5_L003_R1_001.fastp.fastq.gz', '03-M11-MT_S5_L003_R2_001.fastp.fastq.gz']
+  c_lr_mo_0010:
+    M12-LA_S7:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp', '04-M12-LA_S7_L003_R1_001.fastp.fastq.gz', '04-M12-LA_S7_L003_R2_001.fastp.fastq.gz']
+  c_lr_xx_0011:
+    L1-Lynx_S9:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp', '05-L1-Lynx_S9_L003_R1_001.fastp.fastq.gz', '05-L1-Lynx_S9_L003_R2_001.fastp.fastq.gz']
+  c_lr_la_0012:
+    M6-LA_S11:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp', '06-M6-LA_S11_L003_R1_001.fastp.fastq.gz', '06-M6-LA_S11_L003_R2_001.fastp.fastq.gz']
+  c_lr_co_0013:
+    DMNS-13194_S13:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp', '07-DMNS-13194_S13_L003_R1_001.fastp.fastq.gz', '07-DMNS-13194_S13_L003_R2_001.fastp.fastq.gz']
+  c_lr_vt_0014:
+    VT14_S15:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp', '08-VT14_S15_L003_R1_001.fastp.fastq.gz', '08-VT14_S15_L003_R2_001.fastp.fastq.gz']
+  c_lr_vt_0015:
+    VT31_S2:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp', '09-VT31_S2_L003_R1_001.fastp.fastq.gz', '09-VT31_S2_L003_R2_001.fastp.fastq.gz']
+  c_lr_ca_0016:
+    CAS4_S4:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp', '10-CAS4_S4_L003_R1_001.fastp.fastq.gz', '10-CAS4_S4_L003_R2_001.fastp.fastq.gz']
+  c_lr_co_0017:
+    DMNS-13647_S6:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp', '11-DMNS-13647_S6_L003_R1_001.fastp.fastq.gz', '11-DMNS-13647_S6_L003_R2_001.fastp.fastq.gz']
+  c_lr_mi_0018:
+    22MS-Flynt_S8:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp', '12-22MS-Flynt_S8_L003_R1_001.fastp.fastq.gz', '12-22MS-Flynt_S8_L003_R2_001.fastp.fastq.gz']
+  c_lr_mi_0019:
+    27MS-Flynt_S10:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp', '13-27MS-Flynt_S10_L003_R1_001.fastp.fastq.gz', '13-27MS-Flynt_S10_L003_R2_001.fastp.fastq.gz']
+  c_lr_vt_0020:
+    VT9_S12:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp', '14-VT9_S12_L003_R1_001.fastp.fastq.gz', '14-VT9_S12_L003_R2_001.fastp.fastq.gz']
+  c_lr_xx_0021:
+    LRU-83_S14:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp', '15-LRU-83_S14_L003_R1_001.fastp.fastq.gz', '15-LRU-83_S14_L003_R2_001.fastp.fastq.gz']
+  c_lr_ar_0022:
+    MSB-B2_S16:
+      ['/mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/USA_data_Bobcats/fastp', '16-MSB-B2_S16_L003_R1_001.fastp.fastq.gz', '16-MSB-B2_S16_L003_R2_001.fastp.fastq.gz']
