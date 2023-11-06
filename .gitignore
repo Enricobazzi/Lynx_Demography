@@ -4,6 +4,9 @@
 .Ruserdata
 
 **/.DS_Store
+**/__pycache__
+
 scripts/fastqc
 scripts/fastp
+scripts/alignment
 data/fastqc
