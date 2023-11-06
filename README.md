@@ -17,7 +17,7 @@ I will generate GVCFs of following samples:
 ## Data Quality Control
 
 ### Run fastqc on raw reads
-Scripts to be submitted to slurm queue in cesga ft3 were generated using the information contained in the [all_rawreads_fastqs configuration file](config/all_rawreads_fastqs.yml) with the [make_fastqc_scripts](scripts/make_fastqc_scripts.py) python script:
+I run [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) to check the quality of rawreads from sequencing. Scripts to be submitted to slurm queue in cesga ft3 were generated using the information contained in the [all_rawreads_fastqs configuration file](config/all_rawreads_fastqs.yml) with the [make_fastqc_scripts](scripts/make_fastqc_scripts.py) python script:
 ```
 python scripts/make_fastqc_scripts.py config/all_rawreads_fastqs.yml
 ```
@@ -37,7 +37,7 @@ for sh in $(ls scripts/rawreads_fastqc/*.sh | grep -E "_lc_|_lr_")
   sbatch $sh
 done
 ```
-Then I can run multiqc to check outputs:
+Then I can run [multiqc](https://multiqc.info/), [Ewels et al. (2016)](https://academic.oup.com/bioinformatics/article/32/19/3047/2196507) to check outputs:
 ```
 module load cesga/2020 multiqc/1.14-python-3.9.9
 
@@ -152,13 +152,42 @@ multiqc .
 cd /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/lynx_genome/lynx_data/FASTQ_files/LCA_3/fastp/fastqc
 multiqc .
 ```
-**REPEAT MULTIQC OF USA_data_Bobcats AND Canada_data_CandadaLynxes**
 
 It seems that the only samples that after fastp could still be problematic are:
 - c_lc_yu_0007, c_lr_vt_0014, c_lr_vt_0020 -> very odd Per Seqeunce GC Content
 
-## two
-Run alignment
+## Run alignments
+
+**Explain alignmnet pipeline**
+
+Scripts that will run the alignment pipeline [for each sample](scripts/print_samples_in_config.py) in the [alignment configuration file](config/all_fastp_alignment.yml) are generated using the [run_alignment](src/congenomics_fastq_align-main/run_alignment.py) python script with the flag `--test`:
+```
+cd scripts/alignment
+
+for sample in $(python ../../scripts/print_samples_in_config.py ../../config/all_fastp_alignment.yml)
+ do
+  echo "generating alignment script of $sample"
+  python ../../src/congenomics_fastq_align-main/run_alignment.py --sample $sample --config ../../config/all_fastp_alignment.yml --test
+done
+```
+To prepare the reference genome for the alignment I run:
+```
+module load cesga/2020 gcccore/system 
+module load bwa/0.7.17
+module load samtools/1.9
+
+cd /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/reference_genomes/lynx_rufus_mLynRuf2.2/
+bwa index mLynRuf2.2.revcomp.scaffolds.fa
+```
+The generated scripts were then submitted to the job queue on cesga ft3:
+```
+# sbatch all except lr
+for sh in $(ls scripts/alignment/*.sh | grep -v "lr")
+ do
+  echo "sbatching $sh"
+  sbatch $sh
+done
+```
 
 ## three
 Run variant calling
