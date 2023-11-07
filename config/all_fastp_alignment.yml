@@ -434,6 +434,6 @@ call_bwa: "bwa"
 
 call_samtools: "samtools"
 
-call_picard: "${EBROOTPICARD}/picard.jar"
+call_picard: "java -jar ${EBROOTPICARD}/picard.jar"
 
-call_gatk: "${EBROOTGATK}/GenomeAnalysisTK.jar"
+call_gatk: "java -jar ${EBROOTGATK}/GenomeAnalysisTK.jar"
