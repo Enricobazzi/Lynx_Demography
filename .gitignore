@@ -6,6 +6,8 @@
 **/.DS_Store
 **/__pycache__
 
+~$samples_table.xlsx
+
 scripts/fastqc
 scripts/fastp
 scripts/alignment
