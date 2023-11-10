@@ -12,7 +12,16 @@ I will generate GVCFs of following samples:
  - All (20) Lynx canadensis : 3 and 12 are differentiated in PC1 and PC2 respectively and 7 is shit
  - All (18) Lynx rufus (11 is a canada lynx)
 
-*Build samples table*
+Full information can be found in the excel [table of all the samples](data/samples_table.xlsx).
+
+Missing information:
+- lp permit numbers
+- lp tissues
+- lc3, lc9999 location, tissue, permits
+- lc permits
+- lr5, lr6, lr7, lr8, lr9, lr10, lr18, lr19, lr21 tissues
+- lr5, lr6, lr12, lr21 permits
+- lr5, lr6, lr21 location
 
 ## Data Quality Control
 
@@ -158,7 +167,18 @@ It seems that the only samples that after fastp could still be problematic are:
 
 ## Run alignments
 
-**Explain alignmnet pipeline**
+I align the my samples to the [Lynx rufus reference genome](https://denovo.cnag.cat/lynx_rufus).
+
+A script will be run for each sample that will use [bwa v0.7.17](https://bio-bwa.sourceforge.net/bwa.shtml), [samtools v1.9](https://www.htslib.org/doc/samtools.html), [picard v2.25.5](https://broadinstitute.github.io/picard/) and [gatk v3.7-0](https://gatk.broadinstitute.org/hc/en-us) that will do the following:
+- Align each of the sample's R1-R2 fastq pairs to the reference genome using BWA-MEM and Samtools view
+- samtools sort to sort the reads in the bam file
+- picardtools AddOrReplaceReadGroups to add read groups to the reads in the bam file
+- samtools merge to merge the bam files from the multiple R1-R2 pairs of the sample if necessary
+- picardtools MarkDuplicates to mark duplicate reads in the bam
+- realign indels with GATK which comprises:
+    - gatk RealignerTargetCreator to identify realign targets
+    - gatk IndelRealigner to realign the indels
+- samtools index to index the indel realigned bam for downstream analyses
 
 Scripts that will run the alignment pipeline [for each sample](scripts/print_samples_in_config.py) in the [alignment configuration file](config/all_fastp_alignment.yml) are generated using the [run_alignment](src/congenomics_fastq_align-main/run_alignment.py) python script with the flag `--test`:
 ```
@@ -175,9 +195,13 @@ To prepare the reference genome for the alignment I run:
 module load cesga/2020 gcccore/system 
 module load bwa/0.7.17
 module load samtools/1.9
+module load gatk/3.7-0-gcfedb67
 
 cd /mnt/lustre/hsm/nlsas/notape/home/csic/ebd/jgl/reference_genomes/lynx_rufus_mLynRuf2.2/
+
+samtools faidx mLynRuf2.2.revcomp.scaffolds.fa
 bwa index mLynRuf2.2.revcomp.scaffolds.fa
+java -jar ${EBROOTGATK}/GenomeAnalysisTK.jar -T CreateSequenceDictionary -R mLynRuf2.2.revcomp.scaffolds.fa
 ```
 The generated scripts were then submitted to the job queue on cesga ft3:
 ```
